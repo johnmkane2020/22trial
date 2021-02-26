@@ -9,7 +9,7 @@ public class AccountOperations {
        //New methods introduced by Developer 1 working on the US-003
     public static Account setDefaultBillingAddress(Account a){
         a.billingstreet = '535 Mission Street, 15th floor'; // DEV 1 updates
-        a.billingstate = 'California';
+        a.billingstate = 'Nevada';
         a.billingpostalcode ='94105'; // DEV 2 updates
         return a;
     }
